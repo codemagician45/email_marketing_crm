@@ -1,0 +1,48 @@
+<?php
+
+$lang = array(
+  'Admin Dashboard' => 'ταμπλό διαχειριστή',
+  'My Dashboard' => 'ταμπλό μου',
+  'Settings' => 'Ρυθμίσεις',
+  'General Settings' => 'Γενικές Ρυθμίσεις',
+  'System Email Settings' => 'Ρυθμίσεις του συστήματος ηλεκτρονικού ταχυδρομείου',
+  'User Management' => 'Διαχείριση χρηστών',
+  'Payment' => 'Πληρωμή',
+  'Dashboard' => 'Ταμπλό',
+  'Payment Settings' => 'Ρυθμίσεις πληρωμής',
+  'Payment History' => 'Ιστορικό πληρωμών',
+  'My Phonebook' => 'Τηλέφωνο My Book',
+  'Contact Group' => 'Ομάδα Επαφής',
+  'Contact' => 'Επαφή',
+  'My SMS' => 'SMS μου',
+  'SMS Template' => 'Πρότυπο SMS',
+  'Send SMS' => 'Αποστολή SMS',
+  'Scheduled SMS' => 'προγραμματισμένη SMS',
+  'Birthday Wish SMS' => 'Γενέθλια Wish SMS',
+  'SMS History' => 'Ιστορία SMS',
+  'My Email' => 'Email μου',
+  'Email API' => 'email API',
+  'Email Template' => 'Πρότυπο email',
+  'Send Email' => 'Να στείλετε e-mail',
+  'Scheduled Email' => 'προγραμματισμένη Email',
+  'Birthday Wish Email' => 'Γενέθλια Wish Email',
+  'Email History' => 'Ιστορία ηλεκτρονικού ταχυδρομείου',
+  'Report' => 'Έκθεση',
+  'My Report' => 'Έκθεση μου',
+  "Users\' Report" => "Users \ 'Εκθεση",
+  'My SSEM API' => 'SSEM μου API',
+  'My' => 'Μου',
+  'API' => 'API',
+  'SMTP API' => 'SMTP API',
+  'Mandrill API' => 'Mandrill API',
+  'SendGrid API' => 'SendGrid API',
+  'Mailgun API' => 'Mailgun API',
+  'My SMS Report' => 'SMS μου Έκθεση',
+  'My Email Report' => 'Email μου Έκθεση',
+  "Users\' SMS Report" => "Users \ 'Έκθεση SMS",
+  "Users\' Email Report" => "Users \ 'Έκθεση Email",
+);
+
+
+
+

@@ -1,0 +1,626 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Smart SMS & Email Manager | User Manual</title>
+
+    <meta name="description" content="most complete facebook marketing tools">
+    <meta name="author" content="">
+    <meta name="copyright" content="">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    <meta name="date" content="2019-02-14T00:00:00+02:00">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="assets/css/extra.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body class="documenter-project-ssem">
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"><img src="assets/images/image_1.png" style="width: 180px;margin-top:23px;margin-left: 10px;"></a>
+        <ul id="documenter_nav">
+            <li>
+            	<a class='parent_link' class="current" href="#documenter_cover" title="Start"><i class="fas fa-hourglass-start "></i> &nbsp;Start</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#about_addon" title="About Addon"><i class="fa fa-bars"></i> &nbsp;About SSEM</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#feature_list" title="About Addon"><i class="fa fa-window-restore"></i> &nbsp;Features</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#installation" title="How to Install"><i class="fa fa-wrench"></i> &nbsp;How to Install</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#dashboard" title="Dashboard"><i class="fa fa-dashboard"></i> &nbsp;Dashboard</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#settings" title="Settings"><i class="fa fa-cog"></i> &nbsp;Settings</a>
+            	<ul class="sub_sett">
+            		<li><a href="#general"> General Settings</a></li>
+            		<li><a href="#frontend"> Frontend Settings</a></li>
+            		<li><a href="#systememail"> Email Settings</a></li>
+            	</ul>
+            </li>
+			<li>
+				<a class='parent_link' href="#usermanagement" title="user Management"><i class="fa fa-users"></i> &nbsp;User Management</a>
+			</li>
+			<li>
+				<a class='parent_link' href="#payment" title="Payment"><i class="fa fa-paypal"></i> &nbsp;Payment</a>
+			</li>	
+			<li>
+				<a class='parent_link' href="#phonebook" title="My Phonebook"><i class="fa fa-book"></i> &nbsp;My Phonebook</a>
+			</li>
+
+			<li>
+				<a class='parent_link' href="#mysms" title="My SMS"><i class="fa fa-send"></i> &nbsp;My SMS</a>
+				<ul class="sub_sett">
+					<li><a href="#smsapi"> SMS API</a></li>
+					<li><a href="#smstemplate"> SMS Template</a></li>
+					<li><a href="#smsCampaign"> SMS Campaign</a></li>
+					<li><a href="#bdwishsms"> Birthday Wish SMS</a></li>
+					<li><a href="#smsHistory"> SMS History</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a class='parent_link' href="#myemail" title="My Email"><i class="fa fa-envelope"></i> &nbsp;My Email</a>
+				<ul class="sub_sett">
+					<li><a href="#emailapi"> Email API</a></li>
+					<li><a href="#emailtemplate"> Email Template</a></li>
+					<li><a href="#emailCampaign"> Email Campaign</a></li>
+					<li><a href="#bdwishemail"> Birthday Wish Email</a></li>
+					<li><a href="#emailHistory"> Email History</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a class='parent_link' href="#report" title="Reports"><i class="fa fa-map"></i> &nbsp;Report</a>
+				<ul class="sub_sett">
+					<li><a href="#myreport"> My Report</a></li>
+					<li><a href="#usereport"> User's Report</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a class='parent_link' href="#api_cron" title="Cron Job"><i class="fa fa-plug"></i> &nbsp;Native API & Cron Job</a>
+				<ul class="sub_sett">
+					<li><a href="#cronjob"> Cron Job</a></li>
+					<li><a href="#nativeapi"> Native API</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a class='parent_link' href="#multilangual" title="Language Support"><i class="fa fa-language"></i> &nbsp;Multilingual Support</a>
+			</li>
+
+			<li>
+				<a class='parent_link' href="#update" title="Check Update"><i class="fa fa-angle-double-up"></i> &nbsp;Check Update</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<div id="documenter_content">
+		<section id="documenter_cover">
+			<a class="root_a" href="#documenter_cover"><h1><i class="fa fa-book"></i> User Manual of SSEM - Smart SMS & Email Manager</h1></a>
+			<hr>
+			<ul>
+				<li>Created: 31th February 2016</li>
+				<li>Latest update: 9th Sep 2017</li>
+				<li>By: <a href="https://codecanyon.net/item/smart-sms-email-manager-ssem/14817919?s_rank=21">SSEM</a> Team | <a href="https://codecanyon.net/user/xeroneitbd/portfolio">xeroneitbd</a></li>
+				<li>Website: <a href="http://xeroneit.net/">http://xeroneit.net</a></li>
+				<li>Email: <a href="info@xeroneit.net/">info@xeroneit.net</a></li>
+				<li>Developed by : <a href="http://xeroneit.net">XerOne IT</a></li>
+			</ul>
+			<img class="thumb" src="assets/images/cover.png">
+		</section>
+
+		<section id="about_addon">
+			<a class="root_a" href="#about_addon"><h1><i class="fa fa-bars"></i> About SSEM</h1></a><hr>
+			<p><b>Smart SMS & Email Manager (SSEM)</b>, a multi-user SaaS application that manages your SMS & Email in a smarter way. You can manage your contacts, create SMS/Email template, send SMS/Email, schedule when to send SMS/Email, wish your contacts' birthday etc.
+
+			SSEM has built-in support for world's most popular SMS & Email gateways like Plivo, Twilio, Clickatell, Nexmo, Mandrill, Sendgrid, Mailgun etc.</p>
+			<p>It’s a multi-user SaaS application and designed in a way so that each user can have independent environment. Users will have their own SMS/Email gateways and will manage their own SMS/Email as well as bills . </p>
+			<br>
+		</section>
+
+		<section id="feature_list">
+			<div class="row" id="feature_list">
+				<div class="col-md-6">
+				<h2><i class="fas fa-gifts"></i> Key Features</h2><hr>
+					<ul>
+						<li>Dashboard (graphical report of recent activities)</li>
+						<li>Settings (system customization & configuration)</li>
+						<li>User management (User Types : admin, user)</li>
+						<li>SaaS pack : PayPal payment and auto reminder system</li>
+						<li>Contact management (multi-grouped)</li>
+						<li>Most popular SMS/Email gateway support <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Plivo, Twilio, Clickatell, Nexmo, Mandrill, Sendgrid, Mailgun and so on)
+   						</li>
+						<li>SMS/Email template management</li>
+						<li><b>Schedule/Instant SMS/Email</b> Sending to all Contacts with a Single Click</li>
+						<li>Birthday wish SMS/Email</li>
+						<li>Report</li>
+						<li>SSEM native APIs: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Contact Sync b) Send SMS c) Send Email</li>
+						<li>Multilingual Support (built-in support for 11 languages)</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h2><i class="fas fa-gifts"></i> Supported SMS Gateway</h2><hr>
+					<ul>
+						<li>Planet IT</li>
+						<li>Plivo</li>
+						<li>Twilio</li>
+						<li>Clickatell</li>
+						<li>Nexmo</li>
+						<li>msg91.com</li>
+						<li>textlocal.in</li>
+						<li>sms4connect.com</li>
+						<li>telnor.com</li>
+						<li>mvaayoo.com</li>
+						<li>routesms.com</li>
+						<li>trio-mobile.com</li>
+						<li>sms40.com</li>
+						<li>africastalking.com</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h2><i class="fas fa-gifts"></i> Supported Email Gateway</h2><hr>
+					<ul>
+						<li>SMTP</li>
+						<li>Mandrill</li>
+						<li>Sendgrid</li>
+						<li>Mailgun</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="installation">
+			<a class="root_a" href="#installation"><h1><i class="fa fa-wrench"></i> Installation Instructions</h1></a><hr>
+			<h3><i class="fa fa-link"></i> <b>Server Configuration :</b></h3><br>
+			<ul id="installation_guide">
+				<li>PHP v5.4 to 7 & mysql v5.x</li>
+				<li>Make sure <b>curl</b> is enbaled , <b>mbstring</b> is enabled, <b>set_time_out</b> is enabled , <b>safe_mode</b> is off, <b>open_base_dir</b> has no value, <b>allow_url_fopen=1</b> and <b>mysqli</b> support is on.</li>
+				<b>[Note: If you get "404 page not found" error then make AllowOverride in your virual host and check if .htaccess file is uploaded successfully in root or not]</b>
+			</ul>
+
+			<h3><i class="fa fa-link"></i> <b>Installation Manual :</b></h3><br>
+			<ul id="installation_guide">
+				<li><b>Download</b> .zip package</li>
+				<li><b>Upload</b> it to your server</li>
+				<li><b>Extract</b> the package</li>
+				<li>Make sure all files and folder have write permission after you extract because this software have auto update feature and system may need to change or replace any project file during auto update process. If you do not want to use auto update feature then make sure atleast <b>application/install.txt</b>, <b>application/config</b> (folder and child files), <b>application/core</b> (folder and child files), <b>download</b>, <b>upload</b> files have write permission.</li>
+				<li><b>Run</b> the uploaded url via browser (http://yourdomain.com/projectFolder/) and you will find a interface to provide the <b>settings :</b></li>
+				<li>Now add-on has been uploaded and all you need to do is to activate the add-on. Click on the Activate button and activate with your purchase code. <br>
+					<div style="margin-left: 50px;">
+						<h6><i class="fa fa-caret-right"></i> <b>Hostname :</b> database host name / IP (usually localhost)</h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Database Name :</b> create a mysql database on your host and write that name here</h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Database username  :</b> username of the created database</h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Database password :</b> password of the created database</h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Admin Panel Login Email:</b> this will be used to login as admin</h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Admin Panel Login Password :</b> password to log in as admin</h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Company Name and Company Address</b></h6>
+						<h6><i class="fa fa-caret-right"></i> <b>Company Phone /  Mobile</b></h6>
+						<img src="assets/images/install.png" alt="">
+						<h6><i class="fa fa-caret-right"></i> Click <b>Install SSEM Now</b> Button</h6>
+						<h6><i class="fa fa-caret-right"></i> You are done. <b>Log in</b> with your admin username and password and start using <b>SSEM</b></h6>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section id="dashboard">
+			<a class="root_a"  href="#dashboard"><h1><i class="fa fa-dashboard"></i> Dashboard</h1></a><hr>
+			<p><i class="fa fa-bars"></i> Dashboard is the landing page, consisting of graphical representation of recent activities. There are two types of dashboards, one for admins and another for other users.</p>
+			<h3><i class="fa fa-bar-chart-o"></i> <b>Admin Dashboard : </b> Admin Dashboard consists of recent activities of all users</h3>
+			<h3><i class="fa fa-bar-chart-o"></i> <b>My Dashboard : </b> My Dashboard consists of recent activities of his/her only.</h3><br>
+			<img src="assets/images/dashboardNew.png" class="thumb" alt="">
+		</section>
+
+		<section id="settings">
+			<a class="root_a" href="#settings"><h1><i class="fa fa-cog"></i> Settings</h1></a><hr>
+			<p><i class="fa fa-check-circle"></i> This panel is only for admin users. As an admin user, you will find everything to control your application here.</p>
+
+			<section id="general" style="margin-top: -65px;">
+				<div class="setting_feature">
+					<h2><i class="fa fa-hand-o-right"></i> Settings > General Settings [Only Admin]</h2>
+					<ul id="settings_guide">
+						<li><b>Brand Settings: </b>This is the place where you can change company information, aplication details , contact etc. Choose default language,timezone,backend color skin here.There is a settings for focing https to make all urls https.</li>
+						<li><b>Logo & Favicon Settings: </b>Set app logo and favicon. This logo & favicon will affect all over the project. Sometime it may need to clear browser cache to make the changes to affect.</li>
+
+						<li><b>SMS Sending Settings: </b>There are two config variables to overcome the issue of time out for bulk SMS sending. The config variables <b>"Number of SMS Send per Cron Job"</b> means the number of SMS will be send when a cron job runs. Suppose it is set to 10 and your campaign have 100 contacts, so the campaign will be complete after 10 cron jobs run and it will avoid time out issue. Adjust the config as per your server performance. Here 0 means no limit. <br> The another variable <b>"SMS Sending Report Update Frequency"</b> means after how many SMS sending the campaign report will be updated. It is 10 by default. Setting it to lower value will increase the database load but very useful for time out issue as this updated information will be used in next cron job. System will start sending next time where it left the camapign earlier. If your server has timeout issue then you can reduce <b>"SMS Sending Report Update Frequency"</b> to 5. But always keep the <b>"Number of SMS Send per Cron Job"</b> higher than <b>"SMS Sending Report Update Frequency"</b></li>
+
+						<li><b>Email Sending Settings: </b>There are two config variables to overcome the issue of time out for bulk Email sending. The config variables <b>"Number of Email Send per Cron Job"</b> means the number of SMS will be send when a cron job runs. Suppose it is set to 10 and your campaign have 100 contacts, so the campaign will be complete after 10 cron jobs run and it will avoid time out issue. Adjust the config as per your server performance. Here 0 means no limit. <br> The another variable <b>"SMS Sending Report Update Frequency"</b> means after how many SMS sending the campaign report will be updated. It is 10 by default. Setting it to lower value will increase the database load but very useful for time out issue as this updated information will be used in next cron job. System will start sending next time where it left the camapign earlier. If your server has timeout issue then you can reduce <b>"SMS Sending Report Update Frequency"</b> to 5. But always keep the <b>"Number of SMS Send per Cron Job"</b> higher than <b>"SMS Sending Report Update Frequency"</b></li>
+
+						<li><b>SMS/Email API Access Setting: </b> This section is for giving access of SMS/Email API to users. If accesses are enable from general settings, then user can use admin's SMS/Email API to send SMS/Email campaigns.</li>
+						<img src="assets/images/general_setting.png" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+					</ul>
+					
+			</section>
+
+			<section id="frontend" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<h2><i class="fa fa-hand-o-right"></i> Settings > Front-end Settings [Only Admin]</h2>
+					<span><i class="fa fa-check-circle"></i> This awesome software also now have an bulit-in eye-catching landing page which is fully dynamic and can be controlled from this settings area.</span>
+					<ul id="settings_guide">
+						<li>You can choose if you want landing page or not. If you select <b>Display Landing Page</b> as No then login page will be the default page.</li>
+
+						<li>If you do not want social links to show up then keep the social links blank.</li>
+
+						<li>If you choose <b>Display Review Block</b> as No then customer review section will be hidden from landing page. Put youtube watch url if you want to show a review video, keep it blank if you do not want it, it will be hidden then.</li>
+
+						<li>If you want to add promo video of the application then you can add promo video from here. If you don't want this just keep it blank.</li>
+						<img src="assets/images/frontend.png" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+						<li><b>Promo Section : </b></li>
+						<img src="assets/images/landing1.jpg" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+						<li><b>Review Section: </b></li>
+						<img src="assets/images/landing2.jpg" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+						<li><b>Social Section: </b></li>
+						<img src="assets/images/landing4.jpg" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+					</ul>	
+			</section>
+
+			<section id="systememail" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<h2><i class="fa fa-hand-o-right"></i> Settings > Email Settings (System SMTP Email: Only Admin)</h2>
+					<ul id="settings_guide">
+						<li>This is the place to configure system email.</li>
+
+						<li>You can add any SMTP email provider here. There are three stmp types : Default, TLS and SSL. Default option is for non-SSL smtp. You will find your smtp configuration in your cpanel.</li>
+
+						<li>These settings will be used to send system emails like forget password, contact, send notification etc.</li>
+						<div class="row">
+							<div class="col-xs-6">
+								<img src="assets/images/email_setting.png" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+							</div>
+							<div class="col-xs-6">
+								<iframe width="90%" style="margin-left: 30px;" height="305" src="https://www.youtube.com/embed/MhvCxJ-fb9U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+						</div>
+					</ul>	
+			</section>
+		</section>
+
+		<section id="usermanagement">
+			<a class="root_a" href="#usermanagement"><h1><i class="fa fa-users"></i> User Management</h1></a>
+			<hr>
+			<div class="setting_feature">
+				<ul id="settings_guide" style="margin-left: -37px;">
+					<li>It is a muti-user application with the SaaS (Software as a Service) functionality.</li>
+					<li>It consists of two types of user : <b>admin level & user level (end user)</b></li>
+					<li>These settings will be used to send system emails like forget password, contact, send notification etc.</li>
+					<li>Both  will have similar features except only admin users will have access to <b>"Settings","User Management"</b> menu.</li>
+					<li>Admin will configure the system through general settings, email settings, payment settings etc while end users will use the system & will pay monthly service charge for using the system. It has feature to recieve payment via PayPal will be discussed later in this documentation.</li>
+					<li>In user management admin users will have access to add, view, disable, enable, edit, reset password, delete users.</li>
+					<li>From user management admin can also export all users details.</li>
+					<li>Note: if you add an user manually, then after addition edit the user to assign expiry date manually.</li>
+					<li>Note: Deleting an user will delete all it's related data from everywhere of database.</li>
+					<img src="assets/images/usermanage.png" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+				</ul>	
+		</section>
+
+		<section id="payment" style="margin-top: -30px;">
+			<a class="root_a" href="#payment"><h1><i class="fa fa-paypal"></i> Payment [Only Admin]</h1></a>
+			<hr>
+			<div class="setting_feature">
+				<p><i class="fa fa-hand-o-right"></i> <b>Payment -> Dashboard : </b>This is place where you can see your collection report graphically.</p>
+				<img src="assets/images/payment_dash.png" class="thumb" alt="">
+			</div>
+
+			<div class="setting_feature">
+				<p><i class="fa fa-hand-o-right"></i> <b>Payment -> Payment Setting : </b>This is the place where you set your PayPal account / Stripe account or both and your currency. Your end users will pay to this PayPal account/ Stripe account.</p>
+				<img src="assets/images/paymnt.png" class="thumb" alt="">
+			</div>	
+
+			<div class="setting_feature">
+				<p><i class="fa fa-hand-o-right"></i> <b>Payment > Payment History [Admin will have all and users will have own report] : </b>History of all payment made by end users. You can search be name or payment date.</p>
+				<img src="assets/images/payment_history.png" class="thumb" alt="">
+			</div>
+		</section>
+
+		<section id="phonebook" style="margin-top: -30px;">
+			<a class="root_a" href="#phonebook"><h1><i class="fa fa-paypal"></i> My Phonebook</h1></a>
+			<hr>
+			<div class="setting_feature">
+				<p><i class="fa fa-hand-o-right"></i> <b>Contact Group :</b> This is place where you can create contact groups like Friends, Family, Office etc. Contacts can be saved in groups. You can assign a contact to multiple groups also.</p>
+				<img src="assets/images/contact_group.png" class="thumb" alt=""><br><br>
+				<img src="assets/images/add_group.png" class="thumb" alt="">
+			</div>
+
+			<div class="setting_feature">
+				<p><i class="fa fa-hand-o-right"></i> <b>Contact :</b>  Here you can add your contact with their details and assign them to contact groups which you have created in Contact Group menu. You can assign an user to multiple groups. You can also import/export contacts from here. </p>
+				<img src="assets/images/contact_list.png" class="thumb" alt=""><br><br>
+				<img src="assets/images/add_contact.png" class="thumb" alt=""><br>
+				
+				<p><b>Import Contact : </b> You can import CSV file of your contacts and have to assign them into contact group. You can also download sample CSV file to get idea about the foramt of the CSV file.</p>
+				<img src="assets/images/import_csv.png" class="thumb" alt="">
+			</div>
+		</section>
+
+
+		<section id="mysms">
+			<a class="root_a" href="#mysms"><h1><i class="fas fa-send"></i> My SMS</h1></a><hr>
+			<section id="smsapi" style="margin-top: -65px;">
+				<div class="setting_feature">
+					<a href="#smsapi" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>SMS API</b></h2></a>
+					<ul id="settings_guide">
+						<li>To Send SMS, you have to set your SMS API. SSEM has the built-in support for most popular SMS gateway such as <b>Planet IT, plivo,Twilio, Clickatell, Nexmo, msg91.com, textlocal.in, sms4connect.com, telnor.com, mvaayoo.com, routesms.com, trio-mobile.com, sms40.com, africastalking.com</b></li>
+						<li>All you have to do is to chose a gateway, buy SMS from them and configure SSEM with provided API information from the gateway.</li>
+						<img src="assets/images/add_sms_api.png" class="thumb" width="100%" alt="" style="margin-left: 37px;"><br><br>
+						<li>You can get idea about what information is needed for your selected SMS API by click on <b>Instruction to Configure SMS API</b> button</li>
+						<img src="assets/images/api_info.png" class="thumb" width="100%" alt="" style="margin-left: 37px;">
+					</ul>
+			</section>
+
+			<section id="smstemplate" style="margin-top: -30px;">
+				<div class="setting_feature">
+					<a href="#smstemplate" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>SMS Template</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> SSEM provide you to create SMS Templates so that you do not have to write SMS content when you send or schedule SMS.You can use variables like <b>#FIRST_NAME#, #LAST_NAME#, #MOBILE# and #EMAIL_ADDRESS#</b> to replace them with contacts'  first name, last name, mobile number and email respectivlely.</span><br><br>
+					<img src="assets/images/sms_template_list.png" class="thumb" alt=""><br><br>
+					<img src="assets/images/add_sms_template.png" class="thumb" alt="">	
+			</section>
+
+			<section id="smsCampaign" style="margin-top:0px;">
+				<div class="setting_feature">
+					<a href="#smsCampaign" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>SMS Campaign</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> This is the section where you can create your bulk/schedule SMS campaigns to send your contacts number if your SMS API configuration has already done. You can create instant/schedule SMS Campaign from here. You can also see the all of your campaigns details which is pending/processing/completed. See reports of all pending,processing and completed campaigns. <br>There are three controlling options : pause , play and force-process. Pausing campaign will stop sending sending message and playing again will restart sending again. If you think campaign has been stoped for some system failure like timeout then you can force-process the campaign to resume it again.</span><br><br>
+					<img src="assets/images/sms_campaigns.png" alt="" class="thumb"><br><br>
+					
+					<span><i class="fa fa-hand-o-right"></i> <b>New SMS Campaign : </b></span>
+					<ul id="settings_guide">
+						<li>To Add new SMS camapaign click on <b>New SMS Campaign</b> button to get started. You will see the camapaign creation form.</li>
+						<img src="assets/images/add_sms_campaign.png" class="thumb" alt="" style="margin-left: 40px;">
+						<li><b>Campaign Name : </b>You have give a campaign name.</li>
+						<li><b>Send As: </b>You have to select a SMS API to send Messages. You will see the dropdown of your confugured SMS APIs.</li>
+						<li><b>Message Template : </b> You can choose your created SMS message template from the dropdown. You will see the list of your added message templates from SMS Template menu. Here you can write your own message instead of using Message templates.</li>
+						<li><b>Select Contacts : </b>You have to select your contact group to send SMS. You can select multiple groups. Beside selecting contact groups, you can also provide manual phone number in <b>Numbers To Send</b> field. System will send message to both your contact groups and your manual phone numbers.</li>
+						<li><b>Country Code : </b>This Section is optional. Some of If you want to <b>Add/Remove</b> country code to you contacts, you simply put your country code here and select an action from the right sided dropdown menu. It will Add/Remove country code from your contact number.</li>
+						<li><b>Schedule : </b>If you want to send SMS instant, you can keep it <b>Now</b>. Or if you want to create a scheduled campaign, you have to select <b>Later</b>. You will see the <b>Time</b> and <b>Time Zone</b> section which are required for Scheduled campaigns.</li>
+					</ul><br>
+
+					<span><i class="fa fa-hand-o-right"></i> <b>Edit SMS Campaign : </b> You can edit your campaigns by click on Edit Icon. Keep in mind that only <b>Pending</b> campaigns are editable.</span><br><br>
+
+
+					<span><i class="fa fa-hand-o-right"></i> <b>See SMS Campaign Report : </b></span>
+					<ul id="settings_guide">
+						<li>Click the <b>"Report"</b> button to see delivery status of your message. Report will display status of message delivery for each contact. 	<br><br><img src="assets/images/sms_campaigns_report.png" alt="" class="thumb"  style="margin-left: 5px;"><br><br><img src="assets/images/campaign_report_details.png" alt="" class="thumb"  style="margin-left: 5px;">
+						</li>
+
+						<li>Here you can see the sending time and status response of each contact of the campaign. You can edit only your original Message from here. If the campaign has been completed without sending to all and you think you can proceed the campaign & there is less possibilty to get error response, you will see a button Resend from where it is left off to resume sending where it is left off before completion of campaign.</li>
+					</ul>
+			</section>
+
+			<section id="bdwishsms" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#bdwishsms" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Birthday Wish SMS</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> It is another kind of scheduler to wish phonebook contacts at birthday automatically.  You can use variables as described earlier.</span><br>
+					<img src="assets/images/bdwish.png" class="thumb" alt=""><br><br>
+
+			</section>
+
+			<section id="smsHistory" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#smsHistory" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>SMS History</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> This Section Contains your entire SMS campaign Sending history. You can see the actual delivery status of each contacts here. You can also search SMS  of  a specific date interval.</span><br><br>
+					<img src="assets/images/sms_history.png" class="thumb" alt=""><br><br>
+
+			</section>
+		</section>
+
+		<section id="myemail">
+			<a class="root_a" href="#myemail"><h1><i class="fas fa-send"></i> My Email</h1></a><hr>
+			<section id="emailapi" style="margin-top: -65px;">
+				<div class="setting_feature">
+					<a href="#emailapi" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Email API</b></h2></a>
+					<ul id="settings_guide">
+						<li>SSEM Supports Email gateway to send Emails like <<b>Mandrill,Sendgrid and Mailgun</b> gateway. All you have to do is to chose a gateway, buy Email from them and configure SSEM with provided API information from the gateway like Email ID, API Key etc. If you do not want paid email services then you can configure SSEM with your own SMTP or 3rd Party SMTP server for sending SMTP emails.</li>
+						<li><b>SMTP : </b>If you do not want paid email services then you can configure SSEM with your own SMTP or 3rd Party SMTP server for sending SMTP emails. <br><img src="assets/images/smtp_email.png" alt="" class="thumb" style="margin-left: 5px;margin-top: 10px;"></li><br>
+						<li><b>Mandrill : </b>You can Add your Mandrill Email API which is needed information like below image. <br><img src="assets/images/mandrill_form.png" class="thumb" alt="" style="margin-left: 5px;margin-top: 10px;"></li><br>
+						<li><b>Sendgrid : </b>You can Add your Sendgrib Email API which is needed information like below image. <br><img src="assets/images/sendgrid.png" alt="" class="thumb" style="margin-left: 5px;margin-top: 10px;"></li><br>
+						<li><b>Mailgun : </b>You can Add your Mailgun Email API which is needed information like below image. <br><img src="assets/images/mailgun.png" alt="" class="thumb" style="margin-left: 5px;margin-top: 10px;"></li>
+
+					</ul>
+			</section>
+
+			<section id="emailtemplate" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#emailtemplate" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Email Template</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> SSEM provide you to create Email Templates so that you do not have to write Email content when you send or schedule SMS.You can use variables by click on <b>Varible</b> button of the text editor like <b>#FIRST_NAME#, #LAST_NAME#, #MOBILE# and #EMAIL_ADDRESS#</b> to replace them with contacts'  first name, last name, mobile number and email respectivlely. If you also want to send unsubscription link through email, you can also choose Unsubscribe Button from the dropdown. It will use variable like <b>#UNSUBSCRIBE_LINK#</b> and system will send a link to your contact email to unsubscribe from your mailing sevice.</span><br><br>
+					<img src="assets/images/email_template.png" class="thumb" alt=""><br>
+			</section>
+
+			<section id="emailCampaign" style="margin-top:0px;">
+				<div class="setting_feature">
+					<a href="#emailCampaign" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Email Campaign</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> This is the section where you can create your bulk/schedule Email campaigns to send your contacts email addresses if your Email API configuration has already done. You can create instant/schedule Email Campaign from here. You can also see the all of your campaigns details which is pending/processing/completed. See reports of all pending,processing and completed campaigns. <br>There are three controlling options : pause , play and force-process. Pausing campaign will stop sending  email and playing again will restart sending again. If you think campaign has been stoped for some system failure like timeout then you can force-process the campaign to resume it again.</span><br><br>
+					<img src="assets/images/email_campaigns_list.png" alt="" class="thumb"><br><br>
+					
+					<span><i class="fa fa-hand-o-right"></i> <b>New Email Campaign : </b></span>
+					<ul id="settings_guide">
+						<li>To Add new SMS camapaign click on <b>New Email Campaign</b> button to get started. You will see the camapaign creation form.</li>
+						<img src="assets/images/add_email_campaign.png" class="thumb" alt="" style="margin-left: 40px;">
+						<li><b>Campaign Name : </b>You have give a campaign name.</li>
+						<li><b>Send As: </b>You have to select a Email API to send Email. You will see the dropdown of your confugured Email APIs.</li>
+
+						<li><b>Message Template : </b> You can choose your created Email message template from the dropdown. You will see the list of your added message templates from Email Template menu. Here you can also write your own message instead of using Message templates. You can use variables into your message by click on <b>Variable</b> button of the text editor like <b>#FIRST_NAME#,  #LAST_NAME#, #MOBILE#, #EMAIL_ADDRESS#</b> which will be replaced by contacts first name,last name, mobile, email address repectively. You can also send unscubscribe link with the message from variable dropdown. It will show as <b>#UNSUBSCRIBE_LINK#</b> and system will send a link to the campaign contact email to unsubscribe from your mailing service.</li>
+
+						<li><b>Select Contacts : </b>You have to select your contact group to send Email. You can select multiple groups. System will send email to your select groups contacts.</li>
+						<li><b>Attachemnt : </b>You can send attachment with the email also. Allowed files are <b>.png, .jpg,.jpeg, .docx, .txt, .pdf, .ppt, .zip, .avi, .mp4, .mkv, .wmv, .mp3</b></li>
+						<li><b>Schedule : </b>If you want to send Email instant, you can keep it <b>Now</b>. Or if you want to create a scheduled campaign, you have to select <b>Later</b>. You will see the <b>Time</b> and <b>Time Zone</b> section which are required for Scheduled campaigns.</li>
+					</ul><br>
+
+					<span><i class="fa fa-hand-o-right"></i> <b>Edit Email Campaign : </b> You can edit your campaigns by click on Edit Icon. Keep in mind that only <b>Pending</b> campaigns are editable.</span><br><br>
+
+					<span><i class="fa fa-hand-o-right"></i> <b>See Email Campaign Report : </b></span>
+					<ul id="settings_guide">
+						<li>Click the <b>"Report"</b> button to see delivery status of your message. Report will display status of email delivery for each contact. <br><br><img src="assets/images/email_campaigns_report.png" alt="" class="thumb"  style="margin-left: 5px;"><br><br><img src="assets/images/campaign_report_details.png" alt="" class="thumb" style="margin-left: 5px;">
+						</li>
+
+						<li>Here you can see the sending time and status response of each contact of the campaign. You can edit only your original Message from here. If the campaign has been completed without sending to all and you think you can proceed the campaign & there is less possibilty to get error response, you will see a button Resend from where it is left off to resume sending where it is left off before completion of campaign.</li>
+					</ul>
+			</section>
+
+			<section id="bdwishemail" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#bdwishemail" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Birthday Wish Email</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> It is another kind of scheduler to wish contacts through email at birthday automatically.  You can use variables as described earlier.</span><br>
+					<img src="assets/images/bdeamilwish.png" class="thumb" alt="" style="margin-left: 5px;margin-top: 10px;"><br><br>
+
+			</section>
+
+			<section id="emailHistory" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#emailHistory" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Email History</b></h2></a>
+					<span><i class="fa fa-check-circle"></i> This Section Contains your entire Email campaign Sending history. You can see the actual delivery status of each contacts here. You can also search Email  of  a specific date interval.</span><br><br>
+					<img src="assets/images/emailhistory.png" class="thumb" alt=""><br><br>
+
+			</section>
+		</section>
+
+		<section id="report">
+			<a class="root_a" href="#report"><h1><i class="fa fa-map"></i> Report</h1></a><hr>
+			<p><i class="fa fa-info-circle"></i> There are two sections in the Report Menu. <b>My Report</b> and <b>Users' Report</b> which are described below</p>
+			<div class="alert alert-danger">
+				<p>Admins will have the access to both reports section. Admin will be able to see all the sent SMS & Email reports of his and his users.</p>
+			</div>
+			<section id="myreport" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#myreport" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>My Report</b></h2></a>
+					<ul id="settings_guide">
+						<li>My Report section contains your Contact wise sent SMS & EMail Report. You can also download reports.</li>
+						<img src="assets/images/my_sms_report.png" class="thumb" width="100%" alt="" style="margin-left: 37px;"><br><br>
+						<img src="assets/images/my_email_report.png" class="thumb" width="100%" alt="" style="margin-left: 37px;margin-bottom: 20px;">
+					</ul>
+			</section>
+
+			<section id="usereport" style="margin-top: 0px;">
+				<div class="setting_feature">
+					<a href="#usereport" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Users' Report</b></h2></a>
+					<ul id="settings_guide">
+						<li>Users' Report section contains all of your users' Contact wise sent SMS & EMail Report. You can also download reports.</li>
+						<img src="assets/images/users_sms_report.png" class="thumb" width="100%" alt="" style="margin-left: 37px;"><br><br>
+						<img src="assets/images/users_email_report.png" class="thumb" width="100%" alt="" style="margin-left: 37px;margin-bottom: 20px;">
+					</ul>
+			</section>
+		</section>
+
+		<section id="api_cron">
+			<a class="root_a" href="#api_cron"><h1><i class="fas fa-send"></i> Native API & Cron Job</h1></a><hr>
+			<section id="cronjob" style="margin-top: -65px;">
+				<a href="#cronjob" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Cron Job</b></h2></a>
+				<p><i class="fa fa-info-circle"></i> SMS and Email Campaigns are operate with Cron Job. So you have set cron jobs on your server to make SMS/Email Campaign works.</p>
+				<p><i class="fa fa-caret-right"></i> To get your API Key and cron command Go to <b>Native API & Cron Job</b> menu and click on <b>Generate API Key</b> button. Copy the <b>Scheduled/SMS Cron Job Command [once per minute or higher]</b>, <b>Scheduled/Email Cron Job Command [once per minute or higher]</b> & <b>Scheduled/Birthday-wish SMS/Email Cron Job Command [once Per Day Or Higher]</b> commands and configure it into your server.</p>
+				<p><i class="fa fa-video"></i> <b>Cron Job Tutorial : </b> See the below video Tutorial to know how to set up cron job on your server.</p>
+				<iframe width="50%" height="400" src="https://www.youtube.com/embed/zHvJUj6CyuI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</section>
+
+			<section id="nativeapi" style="margin-top: 0px;">
+				<a href="#nativeapi" class="root_a"><h2><i class="fa fa-hand-o-right"></i> <b>Native API</b></h2></a>
+				<div class="alert alert-success">
+					SSEM now includes native API so that you can connect with your SSEM service from external source. As for example: suppose you have a site where there is a registration system and you want to add user data to SSEM database also or you want to send SMS/Email from that site. In that case you need our SSEM native API. The API manual is described in details under <b>Native API & Cron Job</b> menu of your SSEM application.
+				</div>
+			</section>
+		</section>
+
+		<section id="multilangual">
+			<a class="root_a" href="#api_cron"><h1><i class="fas fa-language"></i> Multilingual Support</h1></a><hr>
+			<p><i class="fa fa-bars"></i> SSEM has 11 languages built-in support. It supports 11 different languages. You can set your application into your language by selecting application language from 11 language. Go to <b>Settings -> General Settings</b> menu, here you will find the language selection option.</p>
+			<img src="assets/images/language.png" alt="" class="thumb" style="margin-bottom: 20px;">
+
+			<div class="alert alert-danger">
+				Disclaimer: We are glad to provide our product in 11 different languages. You can change your language system from General Settings. Users can also change their language in front-end and backend. All the translations are performed by google translator. Also there are possibilities of human error. If there are any errors then we can not take the responsibility because firstly, we have no control over or knowledge on google's translation algorithm and secondly, our first language is Bengali & second language is English. So we were unable to correct errors for other languages than Bengali or English. You can correct any error or change any word if you like to (described below).
+			</div>
+			<div class="alert alert-info">
+				<strong>Change Any Built-in Language's Words/Sentences:</strong>
+			</div>
+
+			<p><i class="fa fa-hand-o-right"></i> If you want to change words/sentences any of our built-in languages, you will find them in three places. Let you want to change Bengali language, then you will find Bengali language files in:</p>
+			<p><strong>1. ssem/application/language/bengali/</strong></p>
+			<p>example: common_lang.php</p>
+			<pre class="prettyprint lang-plain linenums">$lang['Recent Activities'] = "Your Value 1";<br>$lang["Today's New Visitor Report"] = "Your Value 2";</pre>
+			<p><strong>2. ssem/plugins/grid/locale/bengali.js</strong></p>
+			<p><strong>&nbsp;example:</strong></p>
+			<pre class="prettyprint lang-plain linenums">&nbsp;&nbsp;&nbsp; $.fn.pagination.defaults.beforePageText&nbsp; = 'Value 1';
+    $.fn.pagination.defaults.afterPageText&nbsp;&nbsp; = ' Value 2 {pages}';
+    $.fn.pagination.defaults.displayMsg &nbsp;&nbsp;&nbsp;&nbsp; = 'Value 3 {total} Value 4 {from} Value 5 {to} Value 6';</pre>
+
+    		<p><strong>3. ssem/plugins/grocery_crud/laguages/bengali.php</strong></p>
+    		<p><strong>example:</strong></p>
+    		<pre class="prettyprint lang-plain linenums">&nbsp;&nbsp;&nbsp; $lang['list_add'] &nbsp; &nbsp;&nbsp;&nbsp; = 'Value1';
+    $lang['list_actions'] &nbsp;&nbsp;= 'Value2';
+    $lang['list_page'] &nbsp;&nbsp; &nbsp;&nbsp;= 'Value3'; 
+    		</pre><br>
+
+    		<div class="alert alert-error">The files are php or js files. So, any syntax error during changing will affect the system. Please be careful when you change and backup original files before you change.</div>
+
+    		<div class="alert alert-info"><strong>Add New Language</strong></div>
+    		<ul>
+    			<li>
+    				<p>
+    					Suppose your language name is "my_lang"</p>
+    			</li>
+    			<li>
+    				<p>
+    					Copy application/language/english folder and paste &amp; rename folder to "my_lang". Then translate all files in that folder.</p>
+    			</li>
+    			<li>
+    				<p>
+    					Translate coping plugins/grid/locale/english.js as plugins/grid/locale/my_lang.js</p>
+    			</li>
+    			<li>
+    				<p>
+    					Translate coping plugins/grocery_crud/languages/english.php as plugins/grocery_crud/languages/my_lang.php</p>
+    			</li>
+    			<li>
+    				<p>Then open <b>application/controllers/home.php</b> and add an array index in <b>_language_list()</b> function like below:</p>
+    				<pre style="height:auto" class="prettyprint lang-plain linenums">"my_lang" =&gt; "My Language"</pre>
+    			</li>
+    		</ul>
+		</section>
+
+		<section id="api_cron">
+			<a class="root_a" href="#api_cron"><h1><i class="fa fa fa-angle-double-up"></i> Check Updates</h1></a><hr>
+			<p><i class="fa fa-info-circle"></i> Go to <b>Check Updates</b> Menu to get the latest update of the application.</p>
+		</section>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script src="assets/js/jquery.js"></script>
+
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+
+	<script>
+	    document.createElement('section');
+	    var duration = '500',
+	        easing = 'swing';
+	</script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>

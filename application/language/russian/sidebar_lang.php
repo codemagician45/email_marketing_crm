@@ -1,0 +1,48 @@
+<?php
+
+$lang = array(
+'Admin Dashboard' => 'Админ Панель приборов',
+  'My Dashboard' => 'Мой Dashboard',
+  'Settings' => 'настройки',
+  'General Settings' => 'общие настройки',
+  'System Email Settings' => 'Настройки системы электронной почты',
+  'User Management' => 'Управление пользователями',
+  'Payment' => 'Оплата',
+  'Dashboard' => 'Панель приборов',
+  'Payment Settings' => 'Настройки оплаты',
+  'Payment History' => 'История платежей',
+  'My Phonebook' => 'Моя телефонная книга',
+  'Contact Group' => 'Контактная группа',
+  'Contact' => 'контакт',
+  'My SMS' => 'Мои SMS',
+  'SMS Template' => 'SMS шаблона',
+  'Send SMS' => 'Отправить смс',
+  'Scheduled SMS' => 'Запланированные SMS',
+  'Birthday Wish SMS' => 'День рождения Желание SMS',
+  'SMS History' => 'История SMS',
+  'My Email' => 'Моя электронная почта',
+  'Email API' => 'Email API',
+  'Email Template' => 'Шаблон сообщения электронной почты',
+  'Send Email' => 'Отправить на e-mail',
+  'Scheduled Email' => 'Запланированные E-mail',
+  'Birthday Wish Email' => 'День рождения Желание E-mail',
+  'Email History' => 'E-mail История',
+  'Report' => 'доклад',
+  'My Report' => 'Мой отчет',
+  "Users\' Report" => "Пользователи \ 'Отчет",
+  'My SSEM API' => 'Мой SSEM API',
+  'My' => 'мой',
+  'API' => 'API',
+  'SMTP API' => 'SMTP API',
+  'Mandrill API' => 'Mandrill API',
+  'SendGrid API' => 'SendGrid API',
+  'Mailgun API' => 'Mailgun API',
+  'My SMS Report' => 'Мой SMS отчет',
+  'My Email Report' => 'Мой отчет по электронной почте',
+  "Users\' SMS Report" => "Users \ 'SMS отчет",
+  "Users\' Email Report" => "Пользователи \ 'E-mail Сообщить",
+);
+
+
+
+

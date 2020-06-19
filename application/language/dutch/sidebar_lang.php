@@ -1,0 +1,48 @@
+<?php
+
+$lang = array(
+'Admin Dashboard' => 'Admin Dashboard',
+  'My Dashboard' => 'mijn dashboard',
+  'Settings' => 'instellingen',
+  'General Settings' => 'Algemene instellingen',
+  'System Email Settings' => 'System E-mailinstellingen',
+  'User Management' => 'User Management ',
+  'Payment' => 'Betaling',
+  'Dashboard' => 'Dashboard',
+  'Payment Settings' => 'betaling Instellingen',
+  'Payment History' => 'Betaalgeschiedenis',
+  'My Phonebook' => 'Mijn telefoonboek ',
+  'Contact Group' => 'Contact Group',
+  'Contact' => 'Contact',
+  'My SMS' => 'mijn SMS',
+  'SMS Template' => 'SMS-sjabloon',
+  'Send SMS' => 'Verstuur sms',
+  'Scheduled SMS' => 'geplande SM',
+  'Birthday Wish SMS' => 'Wens van de Verjaardag SMS',
+  'SMS History' => 'SMS Geschiedenis',
+  'My Email' => 'Mijn e-mail',
+  'Email API' => 'E-mail API',
+  'Email Template' => 'E-mail Template',
+  'Send Email' => 'E-mail verzenden',
+  'Scheduled Email' => 'geplande e-mail',
+  'Birthday Wish Email' => 'Wens van de Verjaardag E-mail',
+  'Email History' => 'E-mail Geschiedenis',
+  'Report' => 'Rapport',
+  'My Report' => 'Mijn verslag',
+  'Users\' Report' => 'Users \ Report',
+  'My SSEM API' => 'Mijn SSEM API',
+  'My' => 'Mijn',
+  'API' => 'API',
+  'SMTP API' => 'SMTP API',
+  'Mandrill API' => 'Mandril API',
+  'SendGrid API' => 'SendGrid API',
+  'Mailgun API' => 'Mailgun API',
+  'My SMS Report' => 'Mijn SMS Report',
+  'My Email Report' => 'mijn e-mail verslag',
+  'Users\' SMS Report' => 'Users \ SMS Report',
+  'Users\' Email Report' => 'Users \ Email Report',
+);
+
+
+
+

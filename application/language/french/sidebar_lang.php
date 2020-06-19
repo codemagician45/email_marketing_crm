@@ -1,0 +1,48 @@
+<?php
+
+$lang = array(
+  'Admin Dashboard' => 'Administrateur Dashboard',
+  'My Dashboard' => 'Mon tableau de bord',
+  'Settings' => 'Paramètres',
+  'General Settings' => 'réglages généraux',
+  'System Email Settings' => 'Paramètres système de messagerie',
+  'User Management' => 'Gestion des utilisateurs',
+  'Payment' => 'Paiement',
+  'Dashboard' => 'Tableau de bord',
+  'Payment Settings' => 'Paramètres de paiement',
+  'Payment History' => 'historique de paiement',
+  'My Phonebook' => 'Mon répertoire',
+  'Contact Group' => 'Groupe de contact',
+  'Contact' => 'Contact',
+  'My SMS' => 'Mon SMS',
+  'SMS Template' => 'SMS Template',
+  'Send SMS' => 'Envoyer un SMS',
+  'Scheduled SMS' => 'SMS programmé',
+  'Birthday Wish SMS' => 'Anniversaire de souhaits SMS',
+  'SMS History' => 'SMS Histoire',
+  'My Email' => 'Mon email',
+  'Email API' => 'Email API',
+  'Email Template' => 'modèle de courrier électronique',
+  'Send Email' => 'Envoyer un email',
+  'Scheduled Email' => 'Prévu Email',
+  'Birthday Wish Email' => 'Anniversaire souhaits Email',
+  'Email History' => 'Email Histoire ',
+  'Report' => 'rapport',
+  'My Report' => 'Mon rapport',
+  "Users\' Report" => "Utilisateurs\ 'Rapport",
+  'My SSEM API' => 'Mon API SSEM',
+  'My' => 'ma',
+  'API' => 'API',
+  'SMTP API' => 'API SMTP',
+  'Mandrill API' => 'API Mandrill',
+  'SendGrid API' => 'SendGrid API',
+  'Mailgun API' => 'Mailgun API',
+  'My SMS Report' => 'Mon SMS Rapport',
+  'My Email Report' => 'Mon Email Rapport',
+  'Users\' SMS Report' => "Users\' Rapport de SMS",
+  'Users\' Email Report' => "Users\' Email Report",
+);
+
+
+
+

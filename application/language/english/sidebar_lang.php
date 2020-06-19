@@ -1,0 +1,48 @@
+<?php
+
+$lang = array(
+  'Admin Dashboard' => 'Admin Dashboard',
+  'My Dashboard' => 'My Dashboard',
+  'Settings' => 'Settings',
+  'General Settings' => 'General Settings',
+  'System Email Settings' => 'System Email Settings',
+  'User Management' => 'User Management',
+  'Payment' => 'Payment',
+  'Dashboard' => 'Dashboard',
+  'Payment Settings' => 'Payment Settings',
+  'Payment History' => 'Payment History',
+  'My Phonebook' => 'My Phonebook',
+  'Contact Group' => 'Contact Group',
+  'Contact' => 'Contact',
+  'My SMS' => 'My SMS',
+  'SMS Template' => 'SMS Template',
+  'Send SMS' => 'Send SMS',
+  'Scheduled SMS' => 'Scheduled SMS',
+  'Birthday Wish SMS' => 'Birthday Wish SMS',
+  'SMS History' => 'SMS History',
+  'My Email' => 'My Email',
+  'Email API' => 'Email API',
+  'Email Template' => 'Email Template',
+  'Send Email' => 'Send Email',
+  'Scheduled Email' => 'Scheduled Email',
+  'Birthday Wish Email' => 'Birthday Wish Email',
+  'Email History' => 'Email History',
+  'Report' => 'Report',
+  'My Report' => 'My Report',
+  'Users\' Report' => 'Users\' Report',
+  'My SSEM API' => 'My Ssem API',
+  'My' => 'My',
+  'API' => 'API',
+  'SMTP API' => 'SMTP API',
+  'Mandrill API' => 'Mandrill API',
+  'SendGrid API' => 'Sendgrid API',
+  'Mailgun API' => 'Mailgun API',
+  'My SMS Report' => 'My Sms Report',
+  'My Email Report' => 'My Email Report',
+  'Users\' SMS Report' => 'Users\' Sms Report',
+  'Users\' Email Report' => 'Users\' Email Report',
+);
+
+
+
+

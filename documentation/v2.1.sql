@@ -1,0 +1,2 @@
+ALTER TABLE `users` ADD `activation_code` INT NOT NULL AFTER `deleted`;
+ALTER TABLE  `sms_api_config` CHANGE  `gateway_name`  `gateway_name` ENUM(  'planet',  'plivo',  'twilio',  'clickatell',  'nexmo',  'msg91.com',  'textlocal.in',  'sms4connect.com',  'telnor.com',  'mvaayoo.com',  'routesms.com',  'trio-mobile.com', 'sms40.com' ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;
