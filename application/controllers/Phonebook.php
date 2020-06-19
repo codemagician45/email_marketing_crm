@@ -55,7 +55,6 @@ class Phonebook extends Home
         // $this->db->where('contact_type.deleted', '0');
         // // $this->db->where('contact_type.user_id', $this->user_id);
         // $res = $this->db->get('contact_type')->result_array();
-        // print_r($res); exit();
         $this->load->library('grocery_CRUD');
         $crud = new grocery_CRUD();
 
